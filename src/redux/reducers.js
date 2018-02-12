@@ -5,7 +5,7 @@ function reducers(state = [], action) {
 
             let newNotes = action.oldNotes.map((note) => {return note})
 
-            newNotes.push('new note')
+            newNotes.push({ title: 'title', text: 'new note' })
 
             let newState = Object.assign({}, state, {
                 notes: newNotes
@@ -18,7 +18,7 @@ function reducers(state = [], action) {
 
             let newNotes = state.notes.map((note) => {return note})
 
-            newNotes[action.noteId] = action.noteText
+            newNotes[action.noteId] = { title: action.noteTitle, text: action.noteText }
 
             let newState = Object.assign({}, state, {
                 notes: newNotes

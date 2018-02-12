@@ -22,11 +22,28 @@
 
 .cardTitleBar {
     display: flex;
-    flex-flow: row-reverse;
+    justify-content: space-between;
     border-bottom: 0px solid black;
     background-color: black;
     box-sizing: border-box;
     padding: 5px;
+}
+
+.cardTitle {
+    color: white;
+    vertical-align: middle;
+    border: 0px solid red;
+    /* height: 50px; */
+}
+
+.titleMiddle {
+    padding: 5px;
+    padding-left: 0px;
+    border: 0px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .cardContentContainer {

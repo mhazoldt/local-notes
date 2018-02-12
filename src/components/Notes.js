@@ -8,10 +8,10 @@ class Notes extends Component {
 
     render() {
 
-        window.localStorage.setItem("notes", this.props.notes);
+        window.localStorage.setItem("notes", JSON.stringify(this.props.notes));
 
         let noteCards = this.props.notes.map((note, idx) => {
-            return <Card text={note} noteId={idx} />
+            return <Card title={note.title} text={note.text} noteId={idx} />
         })
 
         return (

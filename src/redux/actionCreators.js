@@ -3,8 +3,8 @@ function newNote(oldNotes) {
     return { type: 'NEW_NOTE', oldNotes: oldNotes }
 }
 
-function updateNote(noteId, noteText) {
-    return { type: 'UPDATE_NOTE', noteId, noteText }
+function updateNote(noteId, noteTitle, noteText) {
+    return { type: 'UPDATE_NOTE', noteId, noteTitle, noteText }
 }
 
 function removeNote(noteId) {
