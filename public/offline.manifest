@@ -1,0 +1,16 @@
+CACHE MANIFEST
+# This is a comment.
+# Cache manifest version 0.0.1
+# If you change the version number in this comment,
+# the cache manifest is no longer byte-for-byte
+# identical.
+ 
+index.html
+static/css/main.39b71689.css
+static/css/main.39b71689.css.map
+static/js/main.77240e1a.js
+static/js/main.77240e1a.js.map
+service-worker.js
+favicon.ico
+manifest.json
+asset-manifest.json
