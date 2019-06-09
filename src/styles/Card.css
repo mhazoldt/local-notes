@@ -2,7 +2,6 @@
 .cardContainer {
     width: 100vw;
     padding: 5px;
-    border: 0px solid red;
     box-sizing: border-box;
 }
 
@@ -16,14 +15,12 @@
     border: 1px solid white;
     color: white;
     padding: 5px;
-    /* border-radius: 3px; */
     display: inline-block;
 }
 
 .cardTitleBar {
     display: flex;
     justify-content: space-between;
-    border-bottom: 0px solid black;
     background-color: black;
     box-sizing: border-box;
     padding: 5px;
@@ -32,14 +29,12 @@
 .cardTitle {
     color: white;
     vertical-align: middle;
-    border: 0px solid red;
-    /* height: 50px; */
+    outline: none;
 }
 
 .titleMiddle {
     padding: 5px;
     padding-left: 0px;
-    border: 0px solid white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,4 +48,5 @@
 
 .cardContent {
     white-space: pre-wrap;
+    outline: none;
 }

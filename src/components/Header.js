@@ -11,14 +11,11 @@ class Header extends Component {
         this.props.dispatch(newNote(this.props.notes))
     }
 
-
     render() {
         return (
-
             <div className='navbar'>
                 <div className='navItem' onClick={this.newNote}>New</div>
             </div>
-
         )
     }
 }

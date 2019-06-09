@@ -5,9 +5,7 @@ import { connect } from 'react-redux'
 
 class Notes extends Component {
 
-
     render() {
-
         window.localStorage.setItem("notes", JSON.stringify(this.props.notes));
 
         let noteCards = this.props.notes.map((note, idx) => {
@@ -15,11 +13,9 @@ class Notes extends Component {
         })
 
         return (
-
             <div>
                 {noteCards}
             </div>
-
         )
     }
 }

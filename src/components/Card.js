@@ -7,7 +7,6 @@ import {
 } from '../redux/actionCreators'
 
 
-
 class Card extends Component {
 
     updateNoteText = (e) => {
@@ -16,7 +15,6 @@ class Card extends Component {
         let noteTitle = e.currentTarget.dataset.noteTitle
 
         this.props.dispatch(updateNote(noteId, noteTitle, noteText))
-        
     }
 
     updateNoteTitle = (e) => {
@@ -25,14 +23,12 @@ class Card extends Component {
         let noteTitle = e.currentTarget.innerText
 
         this.props.dispatch(updateNote(noteId, noteTitle, noteText))
-        
     }
 
     removeNote = (e) => {
         let noteId = e.currentTarget.dataset.noteId
 
         this.props.dispatch(removeNote(noteId))
-        
     }
 
     render() {
@@ -50,11 +46,9 @@ class Card extends Component {
                     </div>
                 </div>
             </div>
-
         )
     }
 }
-
 
 
 export default connect(null)(Card)
