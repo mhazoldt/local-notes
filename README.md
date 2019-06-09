@@ -1,3 +1,3 @@
-This is a very minimalistic offline web application using React. It can be saved to your homescreen and be opened as if it was a native application and will still work even when there is no internet connection. It saves notes in your browser storage so if you delete your browser data then the notes will be removed as well. There is a new set of notes for each copy of the web app that you save.<br>
+This is a very minimalistic offline notes web application using React. It can be saved to your homescreen and be opened as if it was a native application and will still work even when there is no internet connection. It saves notes in your browser storage so if you delete your browser data then the notes will be removed as well. There is a new set of notes for each copy of the web app that you save.<br>
 
 There is a demo hosted at [https://local-notes.netlify.com](https://local-notes.netlify.com)
